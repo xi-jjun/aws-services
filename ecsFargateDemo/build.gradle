@@ -5,8 +5,13 @@ plugins {
 }
 
 group = 'me.practice'
-version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
+
+jar {
+    enabled = false
+}
+
+archivesBaseName = 'fargate-practice'
 
 configurations {
     compileOnly {
